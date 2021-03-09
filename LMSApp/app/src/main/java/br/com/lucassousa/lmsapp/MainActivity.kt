@@ -23,11 +23,7 @@ class MainActivity : DebugActivity() {
             val params = Bundle()
 
             params.putString("name", nome_usuario)
-
-
-
             intent.putExtras(params)
-
             startActivity(intent)
         }
     }
