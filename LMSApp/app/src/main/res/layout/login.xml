@@ -18,11 +18,12 @@
         android:text="User" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/campo_usuario"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+        android:hint="Digite seu usuário"/>
 
     <TextView
         android:id="@+id/textView4"
@@ -31,11 +32,18 @@
         android:text="Password" />
 
     <EditText
-        android:id="@+id/editTextTextPassword2"
+        android:id="@+id/campo_senha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPassword" />
+        android:inputType="textPassword"
+        android:hint="Digite sua senha"/>
+
+    <Button
+        android:id="@+id/botao_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login" />
 
     <ImageView
         android:id="@+id/imagem_login"
