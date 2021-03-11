@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">LMSApp</string>
-    <string name="mensagem_login">Seja bem vindo</string>
+    <string name="app_name">TPWK</string>
+    <string name="mensagem_login">This is a family show. OR IS ITT?</string>
     <string name="action_buscar">Buscar</string>
     <string name="action_atualizar">Atualizar</string>
     <string name="action_config">Configurações</string>
